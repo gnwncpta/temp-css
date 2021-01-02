@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    height: 900px
+}
+
+.container {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.container > h1 {
+    padding: 20px;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    /* border: 1px solid red; */
+    overflow: auto;
+    height: 100%;
+    margin-left: 200px;
+}
+
+.boxes > .box {
+    float: left;
+    width: 200px;
+    /* padding: 10px; */
+    border-radius: 9px;
+    background-color: rgb(156, 0, 0);
+}
+
+.box > .image-header {
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.box {
+    margin-right: 20px;
+}
+
+
+.box > p {
+    overflow: hidden;
+}
+
+.box > img {
+    width: 100%;
+}
+
+.bg-desc {
+    border-radius: 0px 0px 9px 9px;
+    background-color: rgb(229, 229, 229);
+    color: rgb(30, 30, 30);
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.bg-desc > .header > h2 {
+    font-size: 1.1em;
+    text-align: left;
+    margin-bottom: 10px;
+    float: left;
+    display: inline;
+}
+
+.bg-desc > .header > p {
+    position: relative;
+    top: -23px;
+    left: 1px;
+    font-size: 8px;
+    color: rgb(99, 99, 99);
+    float: right;
+    display: inline;
+}
+
+.bg-desc > .left-desc {
+    float: left;
+    margin-bottom: 20px;
+    text-align: left;
+    color: rgb(99, 99, 99);
+}
+
+.bg-desc > .right-desc {
+    float: left;
+    margin-left: 15px;
+    text-align: left;
+    color: rgb(99, 99, 99);
+}
+
+.bg-desc > .left-desc > p {
+    font-size: .7em;
+    line-height: 13px;
+}
+
+.bg-desc > .right-desc > p {
+    font-size: .7em;
+    line-height: 13px;
+}
+
+.box > .bg-desc > .button-decision {
+    /* border: 1px solid red; */
+    overflow: auto;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+
+.box > .bg-desc > .button-decision > a {
+    float: left;
+    display: block;
+    width: 30%;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px;
+    font-size: .8em;
+    color: rgb(229, 229, 229);
+    background-color: rgb(157, 0, 0);
+    border-radius: 9px;
+    border: 1px solid rgb(157, 0, 0);
+}
+
+.box > .bg-desc > .button-decision > a:last-child {
+    color: rgb(157, 0, 0);
+    float: right;
+    width: 57%;
+    background-color: rgb(229, 229, 229);
+    border: 1px solid rgb(157, 0, 0);
+    box-sizing: border-box;
+}
